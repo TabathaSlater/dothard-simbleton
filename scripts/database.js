@@ -141,4 +141,8 @@ const database = {
         addressCity: "Watrous",
       }
     ]
+  };
+
+  export const businessList = () => {
+    return database.businesses.map(businesses => ({...businesses}))
   }
